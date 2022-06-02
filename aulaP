@@ -1,0 +1,7 @@
+for n in range (3):
+    valor= int (input("Informe um número:"))
+    
+if valor >= 0:
+    print ("valor positivo")
+else:
+    print ("valor negativo")
