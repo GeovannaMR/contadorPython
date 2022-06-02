@@ -1,0 +1,10 @@
+flag = False
+while (not flag):
+    nome = input("Login:")
+    senha = input ("Senha:")
+    if nome != senha:
+        print ("Acesso liberado!")
+        flag = True
+    else:
+        print ("Acesso negado")
+        flag = False
